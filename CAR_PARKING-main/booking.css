@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color:#333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    height: 65px;
+}
+
+main {
+    padding: 1em;
+}
+
+.booking-form, .booked-slots {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin: 0.10em 0 0.6em;
+    
+}
+
+input, select {
+    width: 100%;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5em 2.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.booked-slots ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.booked-slots li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.avail {
+    
+background-color:#333;
+width: 200px;
+height: 50px;
+display: flex; 
+justify-content: center;
+align-items: center; 
+color: white; 
+border-radius: 15px;
+margin-top: 20px;
+margin-left: 200px;
+}
+
+footer {
+    background-color:#333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 65px;
+}

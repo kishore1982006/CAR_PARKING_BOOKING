@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:rgb(255, 255, 255);
+}
+header {
+    background-color:#333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    margin: 120px;
+}
+
+#intro {
+    text-align: center;
+}
+button {
+    background-color: #d0f224;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button:hover {
+    background-color:#d0f224;
+}
+footer {
+    background-color:#333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+table {
+    background-color: #d0f224;
+    color: white;
+   margin: 70px;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('parking1.jpg'); /* Path to your image */
+    background-size: cover; 
+    background-position:center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+
+main {
+    padding: 1em;
+}
+
+.booking-form, .booked-slots {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.booked-slots ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.booked-slots li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+
